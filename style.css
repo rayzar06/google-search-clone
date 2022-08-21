@@ -16,14 +16,14 @@ img{
     left:820px;
 
 }
-#submit{
+.submit{
     position:absolute;
     top:450px;
     left:900px;
     width:130px;
-    height:25px;
+    height:37px;
     font-family:'Times New Roman', Times, serif;
-    font-size:16px;
+    font-size:15px;
 
 }
 #images{
@@ -54,18 +54,19 @@ h2{
     font-weight:normal;
 }
 h2{
-    font-size: 20px;
+    
     color:red;
     margin-left:20px;
     position:absolute;
     left:35px;
-    top:70px;
+    top:80px;
 }
 #words{
     position:absolute;
     top:165px;
-    left:90px;
-    line-height:30px;
+    left:70px;
+    line-height:26px;
+    font-size:14px;
 }
 
 .bar{
@@ -95,4 +96,17 @@ h2{
     top:10px;
     left:10px;
     
+}
+#lucky{
+    position:absolute;
+    top:450px;
+    left:960px;
+    width:130px;
+    height:37px;
+}
+
+.now{
+    position:absolute;
+    top:450px;
+    left:820px;
 }
