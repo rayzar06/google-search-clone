@@ -61,3 +61,38 @@ h2{
     left:35px;
     top:70px;
 }
+#words{
+    position:absolute;
+    top:165px;
+    left:90px;
+    line-height:30px;
+}
+
+.bar{
+    position:absolute;
+    top:210px;
+    left:270px;
+}
+.sbox{
+    width:700px;
+    height:25px;
+
+}
+
+#advbutton{
+    width:120px;
+    height:30px;
+    background-color: 	#4285F4;
+    color:white;
+    font-size: 12px;
+    position:absolute;
+    top:450px;
+    left:857px;
+}
+
+#backim{
+    position:relative;
+    top:10px;
+    left:10px;
+    
+}

@@ -6,18 +6,29 @@
     </head>
     <body>
         <h2>Advanced Search</h2>
-        <div id="form">
+        <div id="words">
+            <p style="font-size:medium">Find pages with...</p>
+            <p>all these words:           </p>
+            <p>this exact word or phrase: </p>
+            <p>any of these words:        </p>
+            <p>none of these words:       </p>
+        </div>
+        <div>
         <form action="https://google.com/search">
-            <p>Find pages with...</p>
-            <p>all these words:           <input type="text" name="as_q"></p>
-            <p>this exact word or phrase: <input type="text" name="as_epq"></p>
-            <p>any of these words:        <input type="text" name="as_oq"></p>
-            <p>none of these words:       <input type="text" name="as_eq"></p>
-            <input type="submit" value="Google Search">
+           
+            <div class="bar">
+                <p><input class="sbox" type="text" name="as_q"></p>
+                <p><input class="sbox" type="text" name="as_epq"></p>
+                <p><input class="sbox" type="text" name="as_oq"></p>
+                <p><input class="sbox" type="text" name="as_eq"></p>
+            </div>
+            <input id="advbutton" type="submit" value="Advanced Search">
         </form>
         </div>
         <div>
-            <a id="back" href="index.html">Go Back</a>
+            <a href="index.html">
+                <img id="backim" src="googlelogo.png" width="97px" height="30px">
+            </a>
         </div>
     </body>
 </html>
